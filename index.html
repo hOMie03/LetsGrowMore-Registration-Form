@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration</title>
+</head>
+<body>
+<center>
+    <h1>Register Yourself!</h1>
+    <form action="" autocomplete="off">
+        <label for="name">Name: </label>
+        <input type="text" id="name">
+        <br><br>
+        <label for="email">Email: </label>
+        <input type="email" id="email">
+        <br><br>
+        <label for="website">Website: </label>
+        <input type="text" id="website">
+        <br><br>
+        <label for="imgLink">Image Link: </label>
+        <input type="text" id="imgLink">
+        <br><br>
+        <label for="gender">Gender: </label>
+        <input type="radio" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="Female">
+        <label for="female">Female</label>
+        <br><br>
+        <label for="skills">Skills: </label>
+        <input type="checkbox" value="HTML" id="html">
+        <label for="html">HTML</label>
+        <input type="checkbox" value="CSS" id="css">
+        <label for="css">CSS</label>
+        <input type="checkbox" value="JavaScript" id="js">
+        <label for="js">JavaScript</label>
+        <input type="checkbox" value="ReactJS" id="reactjs">
+        <label for="reactjs">ReactJS</label>
+        <br><br>
+        <input type="button" value="Enroll Student" name="enroll" onclick="showInfo()">
+        <input type="reset" value="Clear" name="clear">
+    </form>
+    <br>
+    <h1 id="messageInfo"></h1>
+    <br><br>
+    <div class="info">
+        <h2 id="nameInfo"></h2>
+        <hr>
+        <div id="imgInfo"></div>
+        <p id="mailInfo"></p>
+        <p id="webInfo"></p>
+        <p id="genderInfo"></p>
+        <p id="skillsInfo"></p>
+    </div>
+    <script src="index.js"></script>
+</center>
+</body>
+</html>

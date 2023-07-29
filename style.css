@@ -1,0 +1,48 @@
+body
+{
+    margin-top: 8%;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 20px;
+    background: url(https://images.unsplash.com/photo-1600172454520-134a542a2255?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80);
+    background-size: cover;
+}
+input[type="button"]
+{
+    background-color: red;
+    color: white;
+    height: 40px;
+    width: 140px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+}
+input[type="reset"]
+{
+    background-color: blue;
+    color: white;
+    height: 40px;
+    width: 80px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+}
+input[type="text"],input[type="email"]
+{
+    height: 40px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+img
+{
+    width: 20%;
+    float: right;
+}
+.info
+{
+    border: 4mm ridge rgba(211, 220, 50, .6);
+    float: left;
+    padding: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
